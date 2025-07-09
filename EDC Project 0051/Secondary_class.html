@@ -1,0 +1,116 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="viewport" content="with=device-width,initial-scale=1.0">
+<title>Secodary Class webpage</title>
+	<link rel="stylesheet" href="STYLE.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+	<section class="sub-header">
+		<nav>
+			<a href="INDEX.html"><img src="EDC.jpg"></a>
+			<div class="nav-links" id="navLinks">
+				<i class="fa fa-times" onClick="hideMenu()"></i>
+				<ul>
+					<li><a href="INDEX.html">HOME</a></li>
+					<li><a href="about.html">ABOUT</a></li>
+					<li><a href="Secondary_class.html">SECONDARY CLASS</a></li>
+					<li><a href="blog.html">BLOG</a></li>
+					<li><a href="contact.html">CONTACT</a></li>
+				</ul>
+			</div>
+			<i class="fa fa-bars" onClick="showMenu()"></i>
+		</nav>
+		<h1>Our Secondary Classes</h1>
+</section>
+	
+<!---------secondary class subjects-------->
+<section class="Secondaryclass">
+	<h1>Secondary Classes We Offer</h1>
+	<p>Ordinary Level and Advance Level</p>
+	
+	<div class="row">
+		<div class="sc-col">
+			<h3>SECONDARY</h3>
+			<p>This is for Grade 6 to 9 Students</p>
+		</div>
+		
+		<div class="sc-col">
+			<h3>OL</h3>
+			<p>This for Grade 10 to 11 Students</p>
+		</div>
+		<div class="sc-col">
+			<h3>AL</h3>
+			<p>This for Grade 12 to 13 Students</p>
+		</div>
+	</div>
+</section>
+	
+<!-----Facilities------>
+	
+<section class="facilities">
+	<h1>Our Facilities</h1>
+	<p>Separate educational facilities are inherently unequal</p>
+	
+	<div class="row">
+		<div class="facilities-col">
+			<img src="10.jpeg">
+			<h3>Island Class Library</h3>
+			<p>Your library is your portrait.</p>
+		</div>
+		
+		<div class="facilities-col">
+			<img src="11.jpg">
+			<h3>Largest Play Ground</h3>
+			<p>It's Your Ground.</p>
+		</div>
+		
+		<div class="facilities-col">
+			<img src="12.jpg">
+			<h3>Tasty and Healthy Food</h3>
+			<p>Hygenic Food for Students.</p>
+		</div>
+	</div>
+</section>
+	
+
+<!----Footer------>	
+	
+	<section class="footer">
+		<h4>About Us</h4>
+		<p>This tution class for your eduction purpose,We are with you students.</p>
+		<div class="icons">
+			<i class="fa fa-facebook"></i>
+			<i class="fa fa-twitter"></i>
+			<i class="fa fa-instagram"></i>
+			<i class="fa fa-linkedin"></i>
+			<i class="fa fa-whatsapp"></i>
+			<i class="fa fa-telegram"></i>
+		</div>
+		<p>Made with <i class="fa fa-heartbeat"></i> by Thashreeful</p>
+	</section>
+	
+	
+	
+	
+<!--------javaScript for Toggle------>
+	
+	<script>
+		var navLinks=document.getElementById("navLinks");
+		
+		function showMenu(){
+			navLinks.style.right="0";
+		}
+		function hideMenu(){
+			navLinks.style.right="-320px";
+			
+		}
+	
+	</script>
+</body>
+</html>

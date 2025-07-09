@@ -1,0 +1,141 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="viewport" content="with=device-width,initial-scale=1.0">
+<title>Blog webpage</title>
+	<link rel="stylesheet" href="STYLE.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+	<section class="sub-header">
+		<nav>
+			<a href="INDEX.html"><img src="EDC.jpg"></a>
+			<div class="nav-links" id="navLinks">
+				<i class="fa fa-times" onClick="hideMenu()"></i>
+				<ul>
+					<li><a href="INDEX.html">HOME</a></li>
+					<li><a href="about.html">ABOUT</a></li>
+					<li><a href="Secondary_class.html">SECONDARY CLASS</a></li>
+					<li><a href="blog.html">BLOG</a></li>
+					<li><a href="contact.html">CONTACT</a></li>
+				</ul>
+			</div>
+			<i class="fa fa-bars" onClick="showMenu()"></i>
+		</nav>
+		<h1>Our Certificate & Online Programs For 2023</h1>
+</section>
+
+<!----blog page content-->
+	
+<section class="blog-content">
+	<div class="row">
+		<div class="blog-left">
+			<img src="17.jpg">
+			<h2>Our Classe & Online Programs For 2023</h2>
+			<p>How to Increase Students For Coaching Classes - Here you can know the way to get and increase more stduents for your coaching classes or tuition classes. Those important points are 1.Teaching technique, 2.Online marketing, 3.Use of techinology, 4.Use of student management system & app for stduents, 5.Referral Program </p>
+			<br>
+			<p>Student management system is a software which help tuition classes to manage & track students details and their academic life cycle process easily and digitally. SmartClasses.in is the best tuition management system in the world.</p>
+			<br>
+			
+		
+			<div class="comment-box">
+			
+				<h3>Leave a comment</h3>
+				
+				<form class="comment-form">
+					<input type="text" placeholder="Enter Name">
+					<input type="email" placeholder="Enter Email">
+					<textarea rows="5" placeholder="Your comment"></textarea>
+					<button type="submit" class="hero-btn red-btn">POST COMMENT</button>
+				</form>
+			
+			
+			</div>
+			
+		</div>
+		<div class="blog-right">
+			<h3>Subjects</h3>
+			<div>
+				<span>Maths</span>
+				<span>21</span>
+			</div>
+			<div>
+				<span>Science</span>
+				<span>21</span>
+			</div>
+			<div>
+				<span>History</span>
+				<span>20</span>
+			</div>
+			<div>
+				<span>English</span>
+				<span>19</span>
+			</div>
+			<div>
+				<span>E.Tech</span>
+				<span>21</span>
+			</div>
+			<div>
+				<span>B.Tech</span>
+				<span>21</span>
+			</div>
+			<div>
+				<span>SFT</span>
+				<span>20</span>
+			</div>
+			<div>
+				<span>ICT</span>
+				<span>25</span>
+			</div>
+			<div>
+				<span>Geography</span>
+				<span>21</span>
+			</div>
+			<div>
+				<span>islam</span>
+				<span>21</span>
+			</div>
+		</div>
+	</div>
+	
+</section>
+	
+<!----Footer------>	
+	
+	<section class="footer">
+		<h4>About Us</h4>
+		<p>This tution class for your eduction purpose,We are with you students.</p>
+		<div class="icons">
+			<i class="fa fa-facebook"></i>
+			<i class="fa fa-twitter"></i>
+			<i class="fa fa-instagram"></i>
+			<i class="fa fa-linkedin"></i>
+			<i class="fa fa-whatsapp"></i>
+			<i class="fa fa-telegram"></i>
+		</div>
+		<p>Made with <i class="fa fa-heartbeat"></i> by Thashreeful</p>
+	</section>
+	
+	
+	
+	
+<!--------javaScript for Toggle------>
+	
+	<script>
+		var navLinks=document.getElementById("navLinks");
+		
+		function showMenu(){
+			navLinks.style.right="0";
+		}
+		function hideMenu(){
+			navLinks.style.right="-320px";
+			
+		}
+	
+	</script>
+</body>
+</html>

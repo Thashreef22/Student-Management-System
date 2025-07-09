@@ -1,0 +1,91 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="viewport" content="with=device-width,initial-scale=1.0">
+<title>about us webpage</title>
+	<link rel="stylesheet" href="STYLE.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+	<section class="sub-header">
+		<nav>
+			<a href="INDEX.html"><img src="EDC.jpg"></a>
+			<div class="nav-links" id="navLinks">
+				<i class="fa fa-times" onClick="hideMenu()"></i>
+				<ul>
+					<li><a href="INDEX.html">HOME</a></li>
+					<li><a href="about.html">ABOUT</a></li>
+					<li><a href="Secondary_class.html">SECONDARY CLASS</a></li>
+					<li><a href="blog.html">BLOG</a></li>
+					<li><a href="contact.html">CONTACT</a></li>
+				</ul>
+			</div>
+			<i class="fa fa-bars" onClick="showMenu()"></i>
+		</nav>
+		<h1>About Us</h1>
+</section>
+	
+<!-----------about us content-------->
+	
+<section class="about-us">
+	
+	<div class="row">
+		<div class="about-col">
+			<h1>We are the island's largest Tuition class</h1>
+			<p>EDC Tuition Centre exists to help students. We take a unique and innovative approach to teaching that helps students connect with the subject matter they need to master. Through personalised and focused teaching processes, our students develop the tools they need for ongoing success in their fields of study. Our success depends on our attention to the needs of our students and truly helping them to achieve – we don’t succeed unless our students succeed.</p>
+			<h3>Our Mission</h3>
+			<p>To assist our student in mastering their relevant subjects</p>
+			
+			<h3>Our Vision</h3>
+			<p>To be the best tuition centre that provides the most effective and advance education for our students.</p>
+			<a href="EDC_time_table.html" class="hero-btn red-btn">Time Table for 2023</a>
+			<a href="Teachers_details.html" class="hero-btn red-btn">Tecahers Details</a>
+			
+		</div>
+		<div class="about-col">
+			<img src="edc9.jpg" alt="">
+		</div>
+	</div>
+	
+	
+</section>
+	
+
+<!----Footer------>	
+	
+	<section class="footer">
+		<h4>About Us</h4>
+		<p>This tution class for your eduction purpose,We are with you students.</p>
+		<div class="icons">
+			<i class="fa fa-facebook"></i>
+			<i class="fa fa-twitter"></i>
+			<i class="fa fa-instagram"></i>
+			<i class="fa fa-linkedin"></i>
+			<i class="fa fa-whatsapp"></i>
+			<i class="fa fa-telegram"></i>
+		</div>
+		<p>Made with <i class="fa fa-heartbeat"></i> by Thashreeful</p>
+	</section>
+		
+	
+	
+<!--------javaScript for Toggle------>
+	
+	<script>
+		var navLinks=document.getElementById("navLinks");
+		
+		function showMenu(){
+			navLinks.style.right="0";
+		}
+		function hideMenu(){
+			navLinks.style.right="-320px";
+			
+		}
+	
+	</script>
+</body>
+</html>
